@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog </title>
+    <title>Amantes del DeCafé</title>
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="fonts">
+    <link rel="preload" href="img/blog1.jpg" as="image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin center-txt">Blog <span class="logo__bold">Amantes Del Café</span></h1>
+                </a>
+
+                <nav class="navigation">
+                    <a href="us.html" class="navigation__link">Nosotros</a>
+                    <a href="courses.html" class="navigation__link">Cursos</a>
+                    <a href="contact.html" class="navigation__link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="header__txt">
+            <h2 class="no-margin">Blog de Cafe con Tips y Cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <h3 class="center-txt">Contactanos</h3>
+
+        <div class="contact-bg"></div>
+
+        <form action="#" class="form">
+            <div class="field">
+                <label for="contact-name" class="field__label">Nombre</label>
+                <input id="contact-name"
+                    class="field__realm"
+                    type="text" 
+                    placeholder="Escribe tu Nombre">
+            </div>
+
+            <div class="field">
+                <label class="field__label" for="contact-email">Email</label>
+                <input class="field__realm"
+                    id="contact-email" 
+                    type="email" 
+                    placeholder="tucorreo@email.com">
+            </div>
+
+            <div class="field">
+                <label class="field__label" for="contact-txt">Mensaje</label>
+                <textarea name="Message"
+                    class="field__realm field__realm--txtarea" 
+                    id="contact-txt" 
+                    cols="30" 
+                    rows="10">
+                </textarea>
+            </div>
+
+            <div class="field">
+                <input type="submit" 
+                    value="Enviar Mensaje" 
+                    class="button button--primary">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin center-txt">Blog <span class="logo__bold">Amantes Del Café </span></h1>
+                </a>
+
+                <nav class="navigation">
+                    <a href="us.html" class="navigation__link">Nosotros</a>
+                    <a href="courses.html" class="navigation__link"> Cursos</a>
+                    <a href="contact.html" class="navigation__link"> Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
